@@ -8,8 +8,6 @@ from app.handlers import router as user_router
 from app.admin import admin as admin_router
 from app.database.models import async_main
 
-from aiogram.client.session.aiohttp import AiohttpSession
-
 
 
 async def main():
@@ -17,8 +15,7 @@ async def main():
     
     await async_main()
     
-    session = AiohttpSession(proxy='http://proxy.server:3128')
-    bot = Bot(token=os.getenv('TOKEN'), session=session)
+    bot = Bot(token=os.getenv('TOKEN'))
     dp = Dispatcher()
     
     dp.include_routers(user_router, admin_router)
