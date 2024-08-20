@@ -42,7 +42,7 @@ admin = Router()
 
 class Admin(Filter):
     def __init__(self):
-        self.admins = [7015270939]
+        self.admins = [349970037]
 
     async def __call__(self, message: Message):
         return message.from_user.id in self.admins
