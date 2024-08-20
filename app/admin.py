@@ -360,6 +360,8 @@ async def category_items(callback: CallbackQuery, state: FSMContext):
 
     await callback.message.answer('enter photo')
 
+
+
 @admin.message(Admin(), EditItem.photo_id)
 async def category_items(message: Message, state: FSMContext):
     await state.update_data(photo_id=message.photo[-1].file_id)
