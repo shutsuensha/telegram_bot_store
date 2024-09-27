@@ -25,7 +25,7 @@ async def item_buttons(item_id, category_id):
     return keyboard
 
 async def contacts():
-    keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text='admin: @pfjaoighsoigbot', url='https://t.me/PIsyapopka223')],
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text='admin: @evalshine', url='https://t.me/evalshine')],
         [InlineKeyboardButton(text='Назад', callback_data=f'sdhfgsdghsdkjg_')]])
     return keyboard
 
