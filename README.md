@@ -2,7 +2,7 @@
 
 Telegram бот для выбора и фильтрации категорий и товаров, добавления товаров в корзину, оформления заказов, и управления ими через административную панель.
 
-## Demo app - [@LaModaItaliaBot](t.me/LaModaItaliaBot)
+## Demo app - [@LaModaItaliaBot](https://t.me/LaModaItaliaBot)
 
 ![Обзор бота](./overview.gif)
 
