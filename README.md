@@ -36,4 +36,5 @@ python3 run.py
 ## Настройка
 
 Для работы бота необходим токен от Telegram Bot API. Создайте файл `.env` в корневой директории проекта и добавьте туда ваш токен: TOKEN=
+
 Также укажите путь к базе данных: SQLALCHEMY_URL=sqlite+aiosqlite:///file_path
